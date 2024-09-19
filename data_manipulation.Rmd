@@ -1,0 +1,16 @@
+---
+title: "Data Manipulation"
+author: "Fang Wang"
+date: "2024-09-17"
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, echo=FALSE, message = FALSE}
+setwd("/Users/fangwang/Downloads/P8105 Data Science I/Lecture 6/data_manipulation")
+library(tidyverse)
+```
+
+This document will show how to manipulate data.
+
