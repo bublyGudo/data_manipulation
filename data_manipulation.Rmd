@@ -145,6 +145,12 @@ litters_df =
   filter (group == "Con7") |>
   mutate (wt_gain = gd18_weight - gd0_weight) 
 
+write_csv(litters_df, "data/cleaned_fas_litters.csv")
+
 # hot key for |> : command + shift + M
+```
+
+
+```{r}
 ```
 

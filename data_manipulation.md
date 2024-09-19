@@ -715,5 +715,7 @@ litters_df =
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
+write_csv(litters_df, "data/cleaned_fas_litters.csv")
+
 # hot key for |> : command + shift + M
 ```
